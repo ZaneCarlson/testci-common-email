@@ -44,7 +44,7 @@ public class EmailTestCases{
 			emailTest.addBcc();
 			fail("addBcc did not see that the email was empty");
 		}catch(EmailException e) {
-			assertEquals("Adress List provided was invalid", e.getMessage());
+			assertEquals("Address List provided was invalid", e.getMessage());
 		}		
 	}
 	
